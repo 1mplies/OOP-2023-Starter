@@ -1,9 +1,9 @@
 package ie.tudublin;
 
 import java.util.ArrayList;
-import java.util.Random;
 
-public class Word {
+public class Word 
+{
 
     private String word;
     // list of words that follow the word and their counts
