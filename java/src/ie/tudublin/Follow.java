@@ -38,3 +38,4 @@ public class Follow
         return this.word + "(" + this.count + ")";
     }
 }
+
