@@ -5,29 +5,32 @@ import java.util.ArrayList;
 import processing.core.PApplet;
 import processing.data.TableRow;
 
-public class DANI extends PApplet {
+public class DANI extends PApplet 
+{
 
-	
 
-	public void settings() {
+	public void settings() 
+	{
 		size(1000, 1000);
 		//fullScreen(SPAN);
 	}
 
     String[] sonnet;
 
+
     public String[] writeSonnet()
     {
         return null;
     }
 
-	public void setup() {
+	public void setup() 
+	{
 		colorMode(HSB);
-
-       
+		loadFile(filename:"small.txt");
 	}
 
-	public void keyPressed() {
+	public void keyPressed() 
+	{
 
 	}
 
